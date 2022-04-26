@@ -6,13 +6,6 @@ module.exports = {
             platos : platos_db
         })
     },
-    detail : (req,res) => {
-
-        let plato = platos_db.find(plato => plato.id === +req.params.id);
-      
-        return res.render('detalleMenu',{
-            plato,
-        })
-    }
+  
         
 }
