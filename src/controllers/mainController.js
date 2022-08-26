@@ -6,6 +6,4 @@ module.exports = {
             platos : platos_db
         })
     },
-  
-        
 }
